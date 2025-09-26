@@ -44,3 +44,30 @@ print("Result 4: ", result4)
 
 result5 = 5+2**3 *(4-1)
 print("Result 5: ", result5)
+
+#Challenges
+
+#Challenge 1: rectangle Area
+
+area = 8*5
+print("\n\n\nArea: ", area)
+
+#Challenge 2: Circle Area
+
+areacircle = 3.14*7**2
+print("Circle Area: ", areacircle)
+
+#Challenge 3: Shopping Total
+
+costofpurchase = (12.99*3) + (3.50*4)
+print("Cost of purchase for total: $",costofpurchase)
+
+#Challenge 4: Even or odd
+
+evenorodd = 124892%2
+
+if evenorodd == 0:
+    print("EVEN, if the remainder is 0 and the number is divided by 2 it is EVEN")
+else:
+    print("ODD if the number is divided by 2 and the remainder is 1 then it is ODD")
+
