@@ -8,9 +8,34 @@ print("Power: ", math.pow(2,5)) #pow is power for exponents like 2^5 because pow
 print("Pi: ", math.pi) #pi is for pi because pi is 3.141592...
 
 
+#-------------------------------------------
+# Random library
+#-------------------------------------------
 
 
 
+
+#challenge part 1
+seed = 589.32
+
+randomNum = seed/ 250
+
+randomNum = randomNum + 40
+
+randomNum = randomNum *2
+
+print("\n\nPseudo random number: ", math.floor(randomNum))
+
+#challenge bonus
+
+seed2 = 500.12
+
+randomNum2 = seed2/240
+
+randomNum2 = randomNum2 + 2
+
+randomNum2 = randomNum2 *1.1
+print("\n\nPseudo random number bonus: ", math.floor(randomNum2))
 
 
 
