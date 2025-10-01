@@ -37,12 +37,38 @@ randomNum2 = randomNum2 + 2
 randomNum2 = randomNum2 *1.1
 print("\n\nPseudo random number bonus: ", math.floor(randomNum2))
 
+# RANDOM LIBRARY PART 2
+import random
+print("------------RANDOM LIBRARY-------------")
+
+i = 0
+y = 0
+while i < 10000:
+    x = random.randint(1, 100)
+    print(x)
+    
+    
+    i = i+1
 
 
+#LISTSSSSSSSS (this is really just an array tbh)
+mylist = ["eeg", "CHICKEN JOCKEY", "67", "76", "THE NETHER"]
+x2 = random.randint(0,4)
 
+print("\n\n")
+print("---------------------LIST RANDOM STUFF------------------------")
+print(random.choice(mylist))
+print("print the whole list: ",mylist)
+random.shuffle(mylist)
+print("print the shuffled list: ",mylist)
 
+#CHALLENGE 1
+radius = 14/2
+circle_area = math.pi*pow(radius, 2)
 
+print("\n\n--------------------Challenges-------------------------")
+print("circle area of diameter of 14: ", circle_area)
 
-
-
-
+#challenge 2
+die_roll = random.randint(1,6)
+print("\nRandom dice roll: ", die_roll)
