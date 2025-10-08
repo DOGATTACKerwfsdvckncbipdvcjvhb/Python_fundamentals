@@ -62,4 +62,21 @@ city = "Ohio city"
 
 print(f"Hello, my name is {name}. I am {age} years old and I live in {city}.")
 name = "the nether"
-print(f"Next ohio year, I will be {int(age*10)} and my new name will be {name.upper()}.")
+print(f"Next ohio year, I will be {int(age*10)} and my new na me will be {name.upper()}.")
+
+#challenge 1: Favorite quote
+
+x = input("input a quote: ")
+print("the length of your quote is: ", len(x))
+
+#challenge 2: name formatter
+name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print(last_name + ", " + name)
+print(f"{last_name}, {name}")
+
+#challenge 3: word mutations
+phrase = input("Enter a phrase: ")
+print("\nreversed phrase: ", phrase[::-1])
+print("Uppercase phrase: ", phrase.upper())
+print("Lowercase phrase: ", phrase.lower())
