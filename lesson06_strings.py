@@ -80,3 +80,4 @@ phrase = input("Enter a phrase: ")
 print("\nreversed phrase: ", phrase[::-1])
 print("Uppercase phrase: ", phrase.upper())
 print("Lowercase phrase: ", phrase.lower())
+
