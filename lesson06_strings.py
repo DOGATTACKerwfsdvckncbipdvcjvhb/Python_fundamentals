@@ -11,6 +11,7 @@ print(greeting +" "+ name)
 # 0 1 2 3 4 5 
 # p e r s o n
 
+#concatenation
 message = greeting + " " + name + "!!!"
 print("Concatenated message: ", message)
 
@@ -41,3 +42,24 @@ print("\norignal phrase: ", phrase)
 print("fixed phrase for uppercase: ", phrase.upper())
 print("fixed phrase for lower case: ", phrase.lower())
 print("Capitalized word that is proper for sentances: ",phrase.capitalize())
+print("Title format: ", phrase.title())
+
+##chicken jockey 67 at 676767 cuz 67 the nether
+#Find and replace text
+sentence = "My dog is a very goofy goober."
+print(sentence)
+Newsentence = sentence.replace("My dog","A goofy goober")
+print(Newsentence)
+nextsent = sentence.replace("goofy", ",VERY, goofy")
+print(nextsent)
+
+#Formated strings
+print("\n--------Formated strings-------------")
+
+name = "'My name'"
+age= 6.7 
+city = "Ohio city"
+
+print(f"Hello, my name is {name}. I am {age} years old and I live in {city}.")
+name = "the nether"
+print(f"Next ohio year, I will be {int(age*10)} and my new name will be {name.upper()}.")
