@@ -68,6 +68,7 @@ print(f"Next ohio year, I will be {int(age*10)} and my new na me will be {name.u
 
 x = input("input a quote: ")
 print("the length of your quote is: ", len(x))
+print(f"your quote is {str(len(x))} characters long.")
 
 #challenge 2: name formatter
 name = input("Enter your first name: ")
