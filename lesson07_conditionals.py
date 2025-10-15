@@ -67,3 +67,41 @@ if day != "Monday":
     print("\nit is not monday")
 else:
     print("\nI hate school")
+
+# Challenge 1:Even or Odd
+# Ask the user for a number 
+
+x = int(input("Enter a number: "))
+y = x%2
+if y==0:
+    print(f"{x} is an even number")
+else:
+    print(f"{x} is an odd number")
+
+print("\n\n---Challenges---\n\n")
+#challenge 2: password check
+password = "chickenJockey67"
+
+password2 = input("enter a password: ")
+
+if password == password2:
+    print("Access granted now\n")
+else:
+    print("GET OUT\n")
+
+#challenge 3:grading system
+
+grade = int(input("Enter a grade from (0-100): "))
+if grade >= 100:
+    grade = 100
+
+if grade >= 90:
+    print("you have an: A ")
+elif grade >= 80:
+    print("you have an: B ")
+elif grade >=70:
+    print("you have an: C ")
+elif grade >= 60:
+    print("you have an: D ")
+else:
+    print("you have an: F ")
