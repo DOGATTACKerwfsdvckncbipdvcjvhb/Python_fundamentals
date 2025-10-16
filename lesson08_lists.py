@@ -93,8 +93,8 @@ print("\n\n---Challenges---")
 numbers = [1,2,3,4,5,6]
 print(numbers)
 x=int(input("Enter a new integer for this list: "))
-numbersNew = numbers.index(3)
-numbers[numbersNew] = x
+
+numbers[2] = x
 print(numbers)
 
 #challenge 2
