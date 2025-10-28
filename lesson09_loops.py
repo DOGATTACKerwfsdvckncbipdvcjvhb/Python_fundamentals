@@ -90,3 +90,16 @@ while countbutcool > 0:
     print("countdown: ", countbutcool)
     
     time.sleep(0.05)
+
+#CHALLENGES
+
+
+#CHALLENGE 1
+
+listofruit = ["Straw Berry", "Banana", "Orange","Raisin","Tomato","Cranberry","Jackfruit"]
+x = int(input("Enter how many fruits you want to pick: "))
+
+import random
+for i in range(x):
+    print("Getting this fruit: ", random.choice(listofruit))
+#YAY IT DONE LETS GO LIN GAN GULI GULI GULIII GWATCHA LIN GAN GUUUUUU LIN GAN GUU
