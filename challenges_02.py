@@ -125,16 +125,20 @@ print("\n\n\n\n-------------------challenge 4------------------\n\n\n\n")
 #code for challenge 4
 
 def analyze_word(word):
-    print(type(word))
-    if isinstance(word, str): #isistance allows for you to check if a variable is a string
-       return "error"
+    
+    isString = False
+    if isinstance(word, str): #isinstance allows for you to check if a variable is a string
+      isString = True
     vowelCount = 0
     consonantCount = 0
+    if isString != True:
+          return "error"
     for i in word:
+        
         if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
-            vowelCount+=1
+          vowelCount+=1
         else:
-            consonantCount+=1
+          consonantCount+=1
     return f"The vowel amount is {vowelCount}, the consonant count is {consonantCount}."
 
-print(analyze_word("string"))
+print(analyze_word(5))
