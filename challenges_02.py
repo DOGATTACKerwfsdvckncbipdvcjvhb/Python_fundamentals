@@ -98,6 +98,43 @@ def is_even(num):
   else:
     return "odd"
   
-
-print("The number 5 is: ", is_even(5))
+num = 24
+print(f"The number {num} is: {is_even(num)}")
 print("\n\n\n\n-------------------challenge 4------------------\n\n\n\n")
+
+#sudo for challenge 4
+
+#define analyze_word(word) 
+#{  
+#   if type(word) == "str":
+#       return "error"
+#   vowelCount <- 0
+#   consonantCount <- 0
+#   REPEAT for i in word{
+#       if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u' {
+#           vowelCount+=1
+#       } else {
+#           consonantCount+=1
+#       }
+#   }
+#   return f"The vowel amount is {Vowelcount} and the consonant amount is {consonantCount}"
+#}
+
+#print(analyze_word)
+
+#code for challenge 4
+
+def analyze_word(word):
+    print(type(word))
+    if isinstance(word, str): #isistance allows for you to check if a variable is a string
+       return "error"
+    vowelCount = 0
+    consonantCount = 0
+    for i in word:
+        if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
+            vowelCount+=1
+        else:
+            consonantCount+=1
+    return f"The vowel amount is {vowelCount}, the consonant count is {consonantCount}."
+
+print(analyze_word("string"))
