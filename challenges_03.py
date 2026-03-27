@@ -25,12 +25,21 @@ print(functions([1,1,1,1]))
 
 
 
-def palidromefinder():
-    word = input("Enter a word: ")
+# def palidromefinder():
+#     word = input("Enter a word: ")
     
-    if word[::-1] == word:
-        return True
-    else:
-        return False
+#     if word[::-1] == word:
+#         return True
+#     else:
+#         return False
     
-print(palidromefinder())
+# print(palidromefinder())
+
+
+num = 4
+while num <= 2:
+    num+=2
+print(num)
+while num <= 7:
+    num+=1
+print(num)
