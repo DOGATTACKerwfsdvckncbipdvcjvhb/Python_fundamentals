@@ -43,3 +43,7 @@ print(num)
 while num <= 7:
     num+=1
 print(num)
+
+
+#num2 = 7
+#while num2==5 and num2%2 == 0:
